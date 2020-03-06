@@ -1,0 +1,4 @@
+git config core.sparsecheckout true
+git remote add -f origin 깃허브저장소주소
+echo 하위디렉토리경로/* > .git/info/sparse-checkout
+git pull origin master
